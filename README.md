@@ -2,6 +2,11 @@
 # aberrant proteomics library creator
 Singled out scripts from the *aberrant pipeline*. 
 
+
+# separate_fasta.py
+splits a fasta file in given number of subfiles, while making sure that ">headers" and sequences can not be separated.
+
+
 # 1 get_validated_fasta.py
 Since many translation fasta files show problematic inconsistencies to their transcript counterparts, this script ensures that both are the same.
 Further problems were found with regards to annotated coding sequences not starting with ATG or ending with stop codons. The script removes transcripts with wrongly annotated CDS.
