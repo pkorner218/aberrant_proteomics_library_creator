@@ -21,6 +21,10 @@ Creates frameshifted or substituted peptide libraries for mass spectronomy.
 This is a simplified version of the pipeline version that requires the aberrant translation event to happen on codon level.
 Therefore parsed options position_string_type *-pst* and mRNA_codon_AminoAcid *-mca* should remain at codon.
 
+# Notes
+
+Tools are based on trnscript translation and therefore require a transcript file even if substitution from amino acid to amino acid is wanted. 
+Nucleotides accepted are A,C,G,T.
 The positionstring *-ps* should be a codon such as e.g. *TGG*.  
 
 # 2 Usage for frameshifts
